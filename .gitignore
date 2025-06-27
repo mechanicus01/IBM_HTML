@@ -1,0 +1,5 @@
+# .gitignore
+.git # Ignore Python bytecode files
+
+# macOS system files
+.DS_Store
