@@ -32,6 +32,21 @@ def external_css():
 def index_css():
     return render_template('index-css.html')
     
+# Hands-on Lab: Responsive Web Design using Tailwind & Bootstrap Frameworks
+@app.route('/tailwind')
+def framework_tw():
+    return render_template('tailwind.html')
+
+# route for bootstrap framework
+@app.route('/bootstrap')
+def framework_bs():
+    return render_template('bootstrap.html')
+
+# Route for employeeMGMT.html
+@app.route('/employeeMGMT')
+def employee_mgmt():
+    return render_template('employeeMGMT.html')    
+
 # Run the app
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001, debug=True)
