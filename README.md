@@ -21,6 +21,8 @@ Projects from IBM AI Developer Professional Certificate on Coursera
 - JavaScript
   - Employee Management System  
     ![Employee Management System](static/images/employee_mgmt.png)
+    
+  - ![JavaScript Web Form](static/images/js_web_form.png)
 
 
 

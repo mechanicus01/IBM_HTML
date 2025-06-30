@@ -47,6 +47,16 @@ def framework_bs():
 def employee_mgmt():
     return render_template('employeeMGMT.html')    
 
+# JavaScript Web Form Validation
+@app.route('/js-web-form')
+def js_web_form():
+    return render_template('js_web_form.html')
+
+# Route todo-list.html 
+@app.route('/todo-list')
+def todo_list():
+    return render_template('todo-list.html')
+
 # Run the app
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001, debug=True)
