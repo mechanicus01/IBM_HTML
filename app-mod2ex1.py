@@ -57,6 +57,11 @@ def js_web_form():
 def todo_list():
     return render_template('todo-list.html')
 
+# Route for Simple Interest Calculator
+@app.route('/calc-index')
+def simple_interest_calc():
+    return render_template('calc-index.html')
+
 # Run the app
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001, debug=True)
